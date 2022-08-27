@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <title>webpage</title>
+        <style>
+           *{ margin: 0; padding: 0; }
+            body{ font-family: lato; } 
+            #box{ width: 100%; height: 100vh; scroll-behavior: smooth; overflow-y: scroll; } 
+           #box div{ position: relative; height: 100%; } 
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                padding: 0 40px;
+                    }
+            .content h1 {
+                font-size: 70px;
+                font-weight: bold;
+                color: #262626;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+                        }
+            #about .content h1{color: #4bbeb5da;}
+            #motto_and_ideals .content h1,
+            #services .content h1,
+            #contact .content h1{
+                color: #5b5b5b;
+                                }
+            .content p {
+                line-height: 1.5;
+                margin: auto;
+                color: rgb(181, 39, 39);
+                       }
+            ul {
+                padding: 0;
+                text-align: center;
+                position: fixed;
+                margin:  auto;
+                z-index: 1;
+                width: 1100px;
+                left: 0;
+                right: 0;
+                font-family: lato;
+               }
+            ul li{
+                list-style: none;
+                display: inline-block;
+                 }
+            ul li a {
+                display: block;
+                text-decoration: none;
+                height: 45px;
+                font-size: 20px;
+                background: rgb(13, 217, 236);
+                width: 250px;
+                color: #262626;
+                margin: 4px 0;
+                text-transform: uppercase;
+                line-height: 45px;
+                    }
+            ul li a:hover{
+                background: deeppink;
+                text-decoration: none;
+                color: rgb(209, 153, 23);
+                         }
+            #home{
+                background-image:url("/wimg/photo.jpg");
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                 }
+            #motto_and_ideals{
+                background-image:url("/wimg/motto.jpg");
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                 }
+            #contact {
+                background-image:url("/wimg/SOLO.png");
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                 }
+            #services {
+                background-image:url("/wimg/services.jpg");
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                 }
+            #about {
+                background-image:url("/wimg/about.jpg");
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                 }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            <fieldset><ul>
+                <li><img src=""></img></li>
+                <li><a href="#home"><i class="fa fa-home"></i>  Home</a></li>
+                <li><a href="#about"><i class="fa fa-book">  about us</i></a></li>
+                <li><a href="#motto_and_ideals"><i class="fa fa-cog">  motto_and_ideals</i></a></li>
+                <li><a href="#services"><i class="fa fa-folder">  services</i></a></li>
+                <li><a href="#contact"><i class="fa fa-envelope">  contact</i></a></li>
+            </ul></fieldset>
+            <div id="home">
+                <section class="content">
+                    <h1>VIZAG<br><font size="5px" face="italic">-The city of destiny...</font></h1>
+                </section>
+            </div>
+            <div id="about">
+                <section class="content"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p>This website gives you a breif idea about the things you can see and do in the CITY OF DESTINY.<br>Some of the things you can do are as  follows:
+                        <ol type="i">
+                            <li>Enjoy the local Food Specialities.</li>
+                            <li>Stay at famous inns.</li>
+                            <li>Must See Places in Here.</li>
+                            <li><a href="/more(about).html"><b>Wanna see more...</b></a></li>
+                        </ol>
+                    </p>
+                </section>
+            </div>
+            <div height="50%" width="60%" id="motto_and_ideals">
+                <section class="content">
+                    <h1>MOTTO</h1>
+                    <p>Never Leave Regrets in Your Life...\(-,_,-)/</p>
+                </section>
+            </div>
+            <div id="services">
+                <section class="content">
+                    <h1>Services</h1>
+                    <p>
+                        <ol type="I">
+                            <b><li>To and Fro Tickets Booking</li></b>
+                                <ol type=" ">
+                                    <li><a href="https://www.ixigo.com/where-is-my-train">Trains</a></li>
+                                    <li><a href="https://www.abhibus.com/?msclkid=ae373ba3d3221be4104c58a5225e0005&utm_source=bing&utm_medium=cpc&utm_campaign=Generic_KWs_India&utm_term=bus%20booking&utm_content=Generic">BUS</a></li>
+                                    <li><a href="https://www.easemytrip.com/?adgroupid=1162184594500679&msclkid=93f677752ffe13a13d391473ddf4c0aa&utm_source=bing&utm_medium=cpc&utm_campaign=Non%20Brand%20(Flights%20Booking)_Desktop&utm_term=flight%20booking&utm_content=Keywords_booking_EM">Flight</a></li>
+                                </ol>
+                            <b><li><a href="https://in.bookmyshow.com/explore/movies">Movie Tickets</a></li>
+                            <li><a href="https://www.booking.com/">Stay</a></li>
+                            <li><a href="https://www.booking.com/attractions/">Tour Guides</a></li>
+                            <li><a >Transport (no:9014152632)</a></li></b>
+                        </ol>
+                    </p> 
+                </section>
+            </div>
+            <div id="contact">
+                <section class="content">
+                    <h1>Contact</h1>
+                    <p>
+                       <i>E-mail:</i>pavansolo15@gmail.com
+                        <br>contact no's:<br>&nbsp;+91 9014164923.<br>&nbsp;+91 7989556179.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
